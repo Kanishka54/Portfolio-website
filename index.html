@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO WEBSITE</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+</head>
+<body>
+    <nav id="navbar-top" class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+              >Portfolio</a>
+              <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+        <i class="bi bi-menu-button-fill"></i>
+       </button>
+       <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+        <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+          </ul>
+         </div>
+         <div>
+         <button id="contactBtn"class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">Contact</button>
+         <div id="contactOptions" class="d-none">
+          <a href="https://www.linkedin.com/in/kanishka-bhutani-082934204/" class="link" target="_blank">Contact on LinkedIn</a>
+          <br/>
+          <a href="mailto:kanishkabhutani5@gmail.com" class="link">Contact via Email</a>
+        </div>
+         </div>
+        </div>  
+    </nav>
+   
+    
+    <!-- <section class="home pt-5 pb-5" id="home">
+       <div class="row justify-content-evenly">
+         <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+              <h2 style="color: #3f396d">
+                 Hello! I Am <br/><span class="c-orange">Pawan Kumavat</span>
+              </h2>
+              <p class="text-muted">
+                I'm A Web Developer having 5 years of experience in expertise of
+                creating website with fully responsive Also with backend part too.
+              </p>
+              <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+                Hire Me!
+              </button>
+            </div>
+              <div class="col-10 col-md-4 d-none d-md-block">
+                <img src="images/banner-01.webp" class="img-fluid" alt="" />
+              </div>
+       </div>
+    </section> -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br/><span class="c-orange">KANISHKA BHUTANI</span>
+          </h2>
+          <p class="text-muted"
+          >I'm A Web Developer having 5 years of experience in expertise of
+            creating website with fully responsive Also with backend part too.
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            Hire Me
+          </button>
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2" class="img-fluid" alt="Human Being" />
+
+        </div>
+      </div>
+    </section>
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small>My Expertise</small>
+        <h3>
+          Provide Wide Range of <br />
+          Digital Services
+        </h3>
+      </div>
+       <div class="row justify-content-evenly mt-5">
+          <div class="col-10 col-md-4" data-aos="fade-up">
+            <div class="service-card">
+              <div class="img">
+                <img src="https://img.icons8.com/?size=100&id=x51rXOCxzN33&format=png&color=000000
+                " alt="">
+              </div>
+              <div class="content mt-3">
+                   <h4>Web Design</h4>
+                   <p>
+                    "Transforming ideas into visually stunning and functional web experiences."
+                   </p>
+                   <a href="https://www.geeksforgeeks.org/web-design/" class="link" target="_blank">Read more</a>
+              </div>
+            </div>
+       </div>
+       <div class="col-md-4 col-10" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+            <img src="https://img.icons8.com/?size=100&id=79062&format=png&color=000000" alt="">
+          </div>
+          <div class="content mt-3">
+            <h4>Web Development</h4>
+            <p >
+              "Crafting responsive, user-centric websites that blend innovation with functionality."
+            </p>
+            <a href="https://www.geeksforgeeks.org/web-development/" class="link" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div><div class="col-md-4 col-10" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+           <img src="https://img.icons8.com/?size=100&id=v7BkjmFjgswL&format=png&color=000000" alt="">
+          </div>
+          <div class="content mt-3">
+            <h4>Debugging</h4>
+            <p >
+              "Debugging isn’t a task, it’s an art—fixing bugs to craft perfection."
+            </p>
+            <a href="https://www.geeksforgeeks.org/web-development/" class="link" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skill mt-5 py-5" id="about">
+    <div class="row justify-content-evenly">
+        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+            
+            <div class="row justify-content-evenly">
+                <div class="col-10 col-md-6">
+                    <div class="progress-card mt-3">
+                        <div class="circular-progress html-css">
+                            <span class="progress-value html-progress">0%</span>
+                        </div>
+                        <br />
+                        <span class="text">HTML & CSS</span>
+                    </div>
+                </div>
+                <div class="col-10 col-md-6">
+                    <div class="progress-card mt-3">
+                        <div class="circular-progress javascript">
+                            <span class="progress-value javascript-progress">0%</span>
+                        </div>
+                        <br />
+                        <span class="text">JAVASCRIPT</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-evenly mt-3">
+                <div class="col-10 col-md-6">
+                    <div class="progress-card mt-3">
+                        <div class="circular-progress php">
+                            <span class="progress-value php-progress">0%</span>
+                        </div>
+                        <br />
+                        <span class="text">PHP</span>
+                    </div>
+                </div>
+                <div class="col-10 col-md-6">
+                    <div class="progress-card mt-3">
+                        <div class="circular-progress reactjs">
+                            <span class="progress-value reactjs-progress">0%</span>
+                        </div>
+                        <br />
+                        <span class="text">REACTJS</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            <small>My Skills</small>
+            <h3>Beautiful & Unique Digital Experiences</h3>
+            <p class="text-muted">
+              Front-End Development: Proficient in HTML5, CSS3 (Flexbox, Grid, SASS/LESS), JavaScript (DOM manipulation, async programming), and ReactJS, with experience in responsive design, SEO, and version control (Git/GitHub).
+            </p>
+            <button id="downloadbtn" class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              <a href="https://drive.google.com/file/d/1TAXa74jRI8r1AzHfJeuIN2pjI2HHlfPx" download="SampleCV.pdf" class="link" >
+                Download Sample CV 
+            </a>
+
+            </button>
+          </div>
+        </div>
+    </div>
+</section>
+<section class="portfolio" id="portfolio">
+  <div class="heading text-center pt-5">
+    <small>Creative Work</small>
+    <h3>Check My Portfolio</h3>
+  </div>
+  <div id="myBtnContainer" class="text-center mt-4">
+    <button class="filter-item" data-filter="all">All</button>
+    <button class="filter-item" data-filter="game">Game</button>
+    <button class="filter-item" data-filter="webapp">Web App</button>
+    <button class="filter-item" data-filter="website">Website</button>
+    <button class="filter-item" data-filter="brand">Brand</button>
+  </div>
+  <div class="portfolio-body">
+    <div class="row justify-content-evenly px-4">
+      <div class="post col-md-4 game all col-10 mt-3 " data-aos="fade-up">
+        <div class="card">
+          <img src="2048game.png" class="card-img-top" alt="..." />
+          <div class="card-body text-center">
+            <h4 class="card-title">2048 Game</h4>
+            <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+            <span class="badge bg-secondary badge-pill">JavaScript</span>
+            <span class="badge bg-secondary badge-pill mb-2">Game</span
+            ><br />
+            <a href="#" class="link">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="post col-md-4 website all col-10 mt-3" data-aos="fade-up">
+        <div class="card">
+          <img
+            src="currency-converter.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body text-center">
+            <h4 class="card-title">Converter App</h4>
+            <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+            <span class="badge bg-secondary badge-pill">JavaScript</span>
+            <span class="badge bg-secondary badge-pill mb-2">Website</span
+            ><br />
+            <a href="#" class="link">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="post col-md-4 webapp all col-10 mt-3 " data-aos="fade-up">
+        <div class="card">
+          <img src="dictionary.png" class="card-img-top" alt="..." />
+          <div class="card-body text-center">
+            <h4 class="card-title">Dictionary</h4>
+            <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+            <span class="badge bg-secondary badge-pill">JavaScript</span>
+            <span class="badge bg-secondary badge-pill mb-2">WebApp</span
+            ><br />
+            <a href="#" class=" link">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-evenly mt-4 px-4">
+      <div class="post col-md-4 app all col-10 mt-3 " data-aos="fade-up">
+        <div class="card">
+          <img src="piceditor.png" class="card-img-top" alt="..." />
+          <div class="card-body text-center">
+            <h4 class="card-title">PicEditor App</h4>
+            <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+            <span class="badge bg-secondary badge-pill">JavaScript</span>
+            <span class="badge bg-secondary badge-pill mb-2">App</span
+            ><br />
+            <a href="#" class=" link">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="post col-md-4 website all col-10 mt-3 " data-aos="fade-up">
+        <div class="card">
+          <img src="tictactoe.png" class="card-img-top" alt="..." />
+          <div class="card-body text-center">
+            <h4 class="card-title">TicTacToe Game</h4>
+            <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+            <span class="badge bg-secondary badge-pill">JavaScript</span>
+            <span class="badge bg-secondary badge-pill mb-2">Game</span
+            ><br />
+            <a href="#" class="link">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="post col-md-4 all col-10 mt-3" data-aos="fade-up">
+        <div class="card">
+          <img
+            src="lang-translator.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body text-center">
+            <h4 class="card-title">Lang Translator</h4>
+            <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+            <span class="badge bg-secondary badge-pill">JavaScript</span>
+            <span class="badge bg-secondary badge-pill mb-2">Web App</span
+            ><br />
+            <a href="#" class=" link">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    // Smooth animation duration
+    easing: "ease-in-out", // Smooth motion
+    duration: 1000,
+        offset: 50,
+  });
+</script>
+<script src="index.js"></script>
+
+</body>
+</html>
